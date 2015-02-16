@@ -10,8 +10,8 @@ gem 'rails', '4.2.0'
 # Use postgresql as the database for Active Record
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
 end
+gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -57,3 +57,8 @@ gem 'therubyracer'
 gem 'activemerchant'
 
 gem 'aws-sdk'
+
+group :production do
+  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+end
