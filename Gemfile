@@ -53,3 +53,5 @@ gem 'bootstrap-sass'
 gem 'therubyracer'
 
 gem 'activemerchant'
+
+gem 'asset_sync'
