@@ -2,11 +2,6 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
-# config/application.rb
-  config.assets.precompile += [
-    'hella-tite.css'
-  ]
-
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
