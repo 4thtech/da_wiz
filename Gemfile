@@ -8,8 +8,8 @@ gem 'rails', '4.2.0'
 # Use postgresql as the database for Active Record
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
-gem 'rails_12factor', group: :production #need this for rails 4 assets on heroku
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -53,7 +53,3 @@ gem 'bootstrap-sass'
 gem 'therubyracer'
 
 gem 'activemerchant'
-
-gem 'asset_sync'
-
-gem "fog", "~>1.20", require: "fog/aws/storage"
