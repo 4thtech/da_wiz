@@ -11,6 +11,7 @@ gem 'rails', '4.2.0'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -56,11 +57,9 @@ gem 'therubyracer'
 
 gem 'activemerchant'
 
-gem 'aws-sdk'
-
 group :production do
-  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
-  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+
+  #gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
 
 gem 'sprockets'
