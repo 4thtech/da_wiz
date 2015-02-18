@@ -58,9 +58,4 @@ gem 'therubyracer'
 
 gem 'activemerchant'
 
-group :production do
-
-  #gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
-end
-
 gem 'sprockets'
