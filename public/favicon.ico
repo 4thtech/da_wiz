@@ -3,3 +3,6 @@ favicon_link_tag
 
 favicon_link_tag 'myicon.ico'
 # => <link href="/assets/myicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+favicon_link_tag 'myicon.ico'
+# => <link href="/assets/dawiz.png" rel="shortcut icon" type="image/x-icon" />
