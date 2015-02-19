@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   
   get 'cart' =>'pages#cart'
   
+  get 'terms' => 'pages#terms'
+  
   match '/contacts',     to: 'contacts#new',             via: 'get'
   resources "contacts", only: [:new, :create]
 
