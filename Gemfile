@@ -59,3 +59,8 @@ gem 'therubyracer'
 gem 'activemerchant'
 
 gem 'sprockets'
+
+# mailers gems
+
+gem 'mail_form'
+gem 'simple_form'
