@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   
   get 'terms' => 'pages#terms'
   
+  get 'news' => 'pages#news'
+  
   match '/contacts',     to: 'contacts#new',             via: 'get'
   resources "contacts", only: [:new, :create]
 

@@ -16,4 +16,7 @@ class PagesController < ApplicationController
   
   def terms
   end
+  
+  def news
+  end
 end
