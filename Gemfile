@@ -63,7 +63,7 @@ gem 'sprockets'
 # mailers gems
 
 gem 'mail_form'
-#gem 'simple_form'
+gem 'simple_form'
 #end
 
 #mobileviews
