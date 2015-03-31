@@ -64,3 +64,7 @@ gem 'sprockets'
 
 gem 'mail_form'
 gem 'simple_form'
+#end
+
+#mobileviews
+gem 'has_mobile_views', '~> 0.0.3'
