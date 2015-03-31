@@ -63,8 +63,14 @@ gem 'sprockets'
 # mailers gems
 
 gem 'mail_form'
-gem 'simple_form'
+#gem 'simple_form'
 #end
 
 #mobileviews
 gem 'has_mobile_views', '~> 0.0.3'
+#end 
+
+#chptcha
+#gem 'easy_captcha'
+#gem 'rmagick'
+#end

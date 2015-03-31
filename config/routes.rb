@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  #captcha_route
+  
   root 'pages#home'
 
   get 'departments' => 'pages#departments'
