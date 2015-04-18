@@ -54,7 +54,7 @@ end
 
 gem 'bootstrap-sass'
 
-gem 'therubyracer'
+#gem 'therubyracer'
 
 gem 'activemerchant'
 
@@ -67,7 +67,7 @@ gem 'simple_form'
 #end
 
 #mobileviews
-gem 'has_mobile_views', '~> 0.0.3'
+#gem 'has_mobile_views', '~> 0.0.3'
 #end 
 
 #chptcha
