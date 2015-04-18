@@ -1,9 +1,11 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	            <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+			   <%= link_to image_tag("logo1.png",  alt: "Da_Wiz logo"),
+				            root_path %>
+				<%= favicon_link_tag 'dawiz.png' %>
   <div class="container">
-    <%= link_to image_tag("logo1.png",  alt: "Da_Wiz logo"),
-	            root_path %>
-	<%= favicon_link_tag 'dawiz.png' %>
     <nav>
 	  <div class="navbar-header">
 		    <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
