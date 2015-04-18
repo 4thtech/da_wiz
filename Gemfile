@@ -54,7 +54,8 @@ end
 
 gem 'bootstrap-sass'
 
-#gem 'therubyracer'
+gem 'therubyracer'
+gem 'libv8', '~> 3.16.14.7'
 
 gem 'activemerchant'
 
